@@ -7,12 +7,15 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { HistoriaPage } from '../pages/historia/historia';
+import { CienciasPage } from '../pages/ciencias/ciencias';
+
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    HistoriaPage
+    HistoriaPage,
+    CienciasPage
  
   ],
   imports: [
@@ -23,7 +26,8 @@ import { HistoriaPage } from '../pages/historia/historia';
   entryComponents: [
     MyApp,
     HomePage,
-    HistoriaPage
+    HistoriaPage,
+    CienciasPage
  
 
   ],
