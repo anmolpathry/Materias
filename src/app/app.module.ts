@@ -8,6 +8,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { HistoriaPage } from '../pages/historia/historia';
 import { CienciasPage } from '../pages/ciencias/ciencias';
+import { DibujoPage } from '../pages/dibujo/dibujo';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { CienciasPage } from '../pages/ciencias/ciencias';
     MyApp,
     HomePage,
     HistoriaPage,
-    CienciasPage
+    CienciasPage,
+    DibujoPage
  
   ],
   imports: [
@@ -27,7 +29,8 @@ import { CienciasPage } from '../pages/ciencias/ciencias';
     MyApp,
     HomePage,
     HistoriaPage,
-    CienciasPage
+    CienciasPage,
+    DibujoPage
  
 
   ],
