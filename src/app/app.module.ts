@@ -10,6 +10,7 @@ import { HistoriaPage } from '../pages/historia/historia';
 import { CienciasPage } from '../pages/ciencias/ciencias';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { PappsPage } from '../pages/papps/papps';
+import { ComPage } from '../pages/com/com';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { PappsPage } from '../pages/papps/papps';
     HistoriaPage,
     CienciasPage,
     DibujoPage,
-    PappsPage
+    PappsPage,
+    ComPage
  
   ],
   imports: [
@@ -33,7 +35,8 @@ import { PappsPage } from '../pages/papps/papps';
     HistoriaPage,
     CienciasPage,
     DibujoPage,
-    PappsPage 
+    PappsPage,
+    ComPage
 
   ],
   providers: [
