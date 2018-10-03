@@ -11,6 +11,7 @@ import { CienciasPage } from '../pages/ciencias/ciencias';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { PappsPage } from '../pages/papps/papps';
 import { ComPage } from '../pages/com/com';
+import { RobPage } from '../pages/rob/rob';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ComPage } from '../pages/com/com';
     CienciasPage,
     DibujoPage,
     PappsPage,
-    ComPage
+    ComPage,
+    RobPage
  
   ],
   imports: [
@@ -36,7 +38,8 @@ import { ComPage } from '../pages/com/com';
     CienciasPage,
     DibujoPage,
     PappsPage,
-    ComPage
+    ComPage,
+    RobPage
 
   ],
   providers: [
