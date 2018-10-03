@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import {HistoriaPage} from '../historia/historia';
 import { CienciasPage } from '../ciencias/ciencias';
 import { DibujoPage } from '../dibujo/dibujo';
+import { PappsPage } from '../papps/papps';
 
 @Component({
   selector: 'page-home',
@@ -12,6 +13,8 @@ export class HomePage {
   historia = HistoriaPage;
   ciencias = CienciasPage;
   dibujo = DibujoPage;
+  apps = PappsPage;
+
 
   constructor(public navCtrl: NavController) {
 
@@ -27,6 +30,10 @@ export class HomePage {
 
   clickDib(){
     this.navCtrl.push(this.dibujo);
+  }
+
+  clickApp(){
+    this.navCtrl.push(this.apps);
   }
 
 }
