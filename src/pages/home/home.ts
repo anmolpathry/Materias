@@ -8,6 +8,7 @@ import { ComPage } from '../com/com';
 import { RobPage } from '../rob/rob';
 import { PyEPage } from '../py-e/py-e';
 import { MiPage } from '../mi/mi';
+import { CalPage } from '../cal/cal';
 
 @Component({
   selector: 'page-home',
@@ -22,6 +23,7 @@ export class HomePage {
   robo= RobPage;
   pye= PyEPage;
   mi= MiPage;
+  cal= CalPage;
 
   constructor(public navCtrl: NavController) {
 
@@ -59,4 +61,7 @@ export class HomePage {
     this.navCtrl.push(this.mi);
   } 
 
+  clickCAL(){
+    this.navCtrl.push(this.cal);
+  }
 }

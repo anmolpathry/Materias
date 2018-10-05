@@ -14,6 +14,7 @@ import { ComPage } from '../pages/com/com';
 import { RobPage } from '../pages/rob/rob';
 import { PyEPage } from '../pages/py-e/py-e';
 import { MiPage } from '../pages/mi/mi';
+import { CalPage } from '../pages/cal/cal';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { MiPage } from '../pages/mi/mi';
     ComPage,
     RobPage,
     PyEPage,
-    MiPage
+    MiPage,
+    CalPage
  
   ],
   imports: [
@@ -45,7 +47,8 @@ import { MiPage } from '../pages/mi/mi';
     ComPage,
     RobPage,
     PyEPage,
-    MiPage
+    MiPage,
+    CalPage
 
   ],
   providers: [
