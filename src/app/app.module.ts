@@ -12,6 +12,7 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
 import { PappsPage } from '../pages/papps/papps';
 import { ComPage } from '../pages/com/com';
 import { RobPage } from '../pages/rob/rob';
+import { PyEPage } from '../pages/py-e/py-e';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { RobPage } from '../pages/rob/rob';
     DibujoPage,
     PappsPage,
     ComPage,
-    RobPage
+    RobPage,
+    PyEPage
  
   ],
   imports: [
@@ -39,7 +41,8 @@ import { RobPage } from '../pages/rob/rob';
     DibujoPage,
     PappsPage,
     ComPage,
-    RobPage
+    RobPage,
+    PyEPage
 
   ],
   providers: [
